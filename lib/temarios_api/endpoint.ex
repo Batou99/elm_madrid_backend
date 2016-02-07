@@ -35,5 +35,6 @@ defmodule TemariosApi.Endpoint do
     key: "_temarios_api_key",
     signing_salt: "ohgUutOQ"
 
+  plug CORSPlug
   plug TemariosApi.Router
 end

@@ -24,4 +24,5 @@ defmodule TemariosApi.Router do
     pipe_through :api
     resources "/temas", TemaController, except: [:new, :edit]
   end
+
 end
